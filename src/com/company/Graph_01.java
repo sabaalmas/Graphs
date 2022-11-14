@@ -25,7 +25,7 @@ public class Graph_01
             }
             System.out.println();
         }
-        System.out.println("Edges: " +Edges);
+        System.out.println("Edges are: " +Edges);
     }
 
     public static void main(String args[]){
@@ -35,7 +35,6 @@ public class Graph_01
         g.addEdges(2,3);
         g.addEdges(3,0);
         g.print();
-
 
     }
 }
